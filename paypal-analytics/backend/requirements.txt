@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pandas
+python-multipart
+reportlab
+pydantic
+sqlalchemy
+psycopg2-binary
+
+python-dotenv
