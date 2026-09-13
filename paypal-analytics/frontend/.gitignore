@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python backend
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files — real secrets, never commit
+.env
+.env.production
+.env.docker-test
+
+# AWS SSH key — never, ever commit this
+*.pem
+
+# Test/local artifacts
+test_history.db
